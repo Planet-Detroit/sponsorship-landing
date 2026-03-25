@@ -385,12 +385,13 @@
 }
 
 .contact-photo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
   border: 3px solid rgb(45, 128, 195);
+  box-shadow: 0 2px 12px rgba(45, 128, 195, 0.15);
 }
 
 .contact-role {
